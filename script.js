@@ -21,7 +21,7 @@ let getCountryInfo = (country) => {
             <h5>Languages: <span>${Object.values(data[0].languages).join(" ")}</span></h5>
             <h5>Time Zone: <span>${data[0].timezones}</span></h5>
             <h5>Maps:<span>${Object.values(data[0].maps).join(", ")}</span></h5>
-            <h5>Borders: <span>${data[0].borders}</span></h5>
+            <h5>Borders:<span>${data[0].borders}</span></h5>
         </div>`;
 
         infoBox.innerHTML = info;
