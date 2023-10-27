@@ -31,7 +31,7 @@ let getCountryInfo = (country) => {
             alert("Empty input or invalid input cannot generate the results");
         }else{
             infoBox.innerHTML = `<h3 class="invalid-name-message">Please enter a valid country name!</h3>
-            <a class="invalid-name-message" target="_blank" href="https://history.state.gov/countries/all">For reference reach this site 👉 All contries</a>
+            <a class="invalid-name-message" target="_blank" href="https://history.state.gov/countries/all">For reference reach this site 👉 All countries</a>
             `;
         }
     })
