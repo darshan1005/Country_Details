@@ -115,6 +115,13 @@ a:hover {
     text-decoration: underline;
 }
 
+.container .footer_tag{
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.416);
+}
+
 ::selection{
     background: rgba(0, 0, 0, 0.8);
     color: rgb(255, 255, 255);
